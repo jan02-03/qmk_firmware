@@ -21,9 +21,9 @@
 
 /* Serial communication settings */
 #define USE_SERIAL
-// #define SOFT_SERIAL_PIN GP1
+#define SOFT_SERIAL_PIN GP1
 
-#define SERIAL_USART_TX_PIN GP0     // The GPIO pin that is used split communication.
+// #define SERIAL_USART_TX_PINS GP0     // The GPIO pin that is used split communication.
 
 #define SPLIT_HAND_PIN GP10
 #define	SPLIT_HAND_PIN_LOW_IS_LEFT
